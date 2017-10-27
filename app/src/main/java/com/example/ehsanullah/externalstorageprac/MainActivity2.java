@@ -40,7 +40,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void getPrivate(View view) {
-        File folder = getExternalFilesDir("AbhiAndroid"); // Folder Name
+        File folder = getExternalFilesDir("AbhiAndroid") ; // Folder Name
         File myFile = new File(folder, "myData2.txt"); // Filename
         String text = getdata(myFile);
         if (text != null) {
